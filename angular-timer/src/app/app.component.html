@@ -1,6 +1,6 @@
 <div style="text-align: center">
-  <p id="timer">00:00:00</p>
-  <button>Start</button>
-  <button>Stop</button>
-  <button>Reset</button>
+  <p id="timer">{{ secondsDisplay }}</p>
+  <button (click)="start()">Start</button>
+  <button (click)="stop()">Stop</button>
+  <button (click)="reset()">Reset</button>
 </div>
